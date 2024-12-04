@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <!--bootstrap link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!---css link-->
+    <link rel="stylesheet" href="./style.css">
+    <!--boxicons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!---google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Arima:wght@100..700&family=Courgette&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Qwitcher+Grypen:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<!---AOS-->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!--font awesome-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <!---Navbar----->
+    <section class="landing-section">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid ">
+          <a class="navbar-brand " href="#"><img width="200px" src="./Images/logo-bg.png" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto ">
+              <li class="nav-item me-5">
+                <a class="nav-link active" aria-current="page" href="#home">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-5" href="#about">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-5" href="#our-story">OUR STORY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-5" href="#products">PRODUCT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-5" href="#gallery">GALLERY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-5" href="#contact">CONTACT</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!---Home page contents-->
+      <section id="home" class="home-section">
+      <h1 class="text-success">Purely ORGANIC</h1>
+      <h4><span class="bg-dark text-light p-2 fw-600 rounded ">Straight from the farm</span></h4>
+      
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, <br>distinctio quod est, laudantium similique quae corporis debitis u<br> sapiente fugit sint? Anim temporibus perferendis molestias eaque.</p>
+
+      
+     <button class="btn btn-success p-2" type="submit">Products</button>
+    </section>
+    
+     <br><br><br><br><br><br><br><br><br><br><br>
+     <!---cards-->
+<div class="container">
+  <div class="row justify-content-start">
+     <div class="col-md-3 col-sm-6 mb-4">
+        <div class="card1 bg-light">
+           <img src="./Images/card-img-1.png" class="card-img-top1" alt="no image">
+           <div class="card-body1">
+              <p class="card-text1" id="card-title1">24/07 Support</p>
+              <div class="card-description1">Our dedicated support team is available 24/7 to assist you with any questions or issues.</div>
+           </div>
+        </div>
+     </div>
+
+     <div class="col-md-3 col-sm-6 mb-4">
+        <div class="card1 bg-light">
+           <img src="./Images/card-img-2.png" class="card-img-top1" alt="no image">
+           <div class="card-body1">
+              <p class="card-text1" id="card-title1">Money-Back Guarantee</p>
+              <div class="card-description1">We offer a money-back guarantee to ensure your complete satisfaction with every purchase.</div>
+           </div>
+        </div>
+     </div>
+
+     <div class="col-md-3 col-sm-6 mb-4">
+        <div class="card1 bg-light">
+           <img src="./Images/card-img-3.png" class="card-img-top1" alt="no image">
+           <div class="card-body1">
+              <p class="card-text1" id="card-title1">Fast Delivery</p>
+              <div class="card-description1">Get your orders delivered swiftly and reliably, so you can enjoy your purchases without delay.</div>
+           </div>
+        </div>
+     </div>
+
+     <div class="col-md-3 col-sm-6 mb-4">
+        <div class="card1 bg-light">
+           <img src="./Images/card-img-4.png" class="card-img-top1" alt="no image">
+           <div class="card-body1">
+              <p class="card-text1" id="card-title1">Exceptional Standards</p>
+              <div class="card-description1">We set high standards for quality, ensuring every product is crafted with care for durability & satisfaction.</div>
+           </div>
+        </div>
+     </div>
+  </div>
+</div>
+
+  <br><br><br><br>
+
+<!-- About Section -->
+<section id="about"   class="about-section py-5">
+  <div class="container">
+      
+              <h2 class="text-success">About Us</h2>
+              <p class="lead">At 100% Organic, we are passionate about providing high-quality<br> organic products sourced directly from the farm. Our commitment to <br>sustainability and customer satisfaction drives everything we do.</p>
+              <p>Founded in 1970, our mission is to deliver the best organic offerings while <br>maintaining exceptional standards. We believe in creating a positive impact<br> on the community and the environment.</p>
+              <p>Join us in our journey towards a healthier lifestyle, and explore <br>our range of organic products today!</p>
+          
+         
+              <img src="" class="img-fluid rounded" alt="">
+          
+      
+  </div>
+</section>
+
+
+
+  <!-- Our Story Section -->
+<section id="our-story" class="our-story-section py-5">
+  <div class="container">
+     <h2 class="text-center text-success mb-4">Our Story</h2>
+     
+     <div class="row">
+        
+        <div data-aos="fade-left" class="col-md-6">
+           <img     src="./Images/our story-img1.jpg" alt="Image 1" class="img-fluid rounded" style="width: 400px; height: auto;">
+        </div>
+       
+        <div class="col-md-6 d-flex align-items-center">
+           <div>
+              <h3 class="text-success">How We Started ?</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, distinctio. We began with a vision to bring organic, farm-fresh products directly to you. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo non tempore aspernatur architecto autem illum a voluptatem laudantium ducimus rerum perferendis impedit veniam, amet est magnam eaque magni quam consectetur.
+                Sed recusandae maiores ea, nemo itaque perferendis commodi odio corporis optio fugit inventore quidem, alias doloremque quam facilis obcaecati voluptates saepe. Harum molestias earum et fugit itaque nostrum dicta maiores?</p>
+           </div>
+        </div>
+     </div>
+
+     <div class="row mt-5">
+    
+        <div  data-aos="fade-left" class="col-md-6 order-md-2">
+           <img src="./Images/our-story-img2.jpg" alt="Image 2" class="img-fluid rounded" >
+        </div>
+        
+        <div class="col-md-6 d-flex align-items-center order-md-1">
+           <div>
+              <h3 class="text-success">Our Commitment</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, nostrum. We are dedicated to providing fresh, organic produce while supporting sustainable farming. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo non tempore aspernatur architecto autem illum a voluptatem laudantium ducimus rerum perferendis impedit veniam, amet est magnam eaque magni quam consectetur.
+              Sed recusandae maiores ea, nemo itaque perferendis commodi odio corporis optio fugit inventore quidem, alias doloremque quam facilis obcaecati voluptates saepe. Harum molestias earum et fugit itaque nostrum dicta maiores?</p>
+           </div>
+        </div>
+     </div>
+  </div>
+</section>
+
+
+<br><br><br>
+<!-- Product Section -->
+<section id="products" class="products-section py-5">
+  <div class="container">
+     <h2 class="text-center text-success mb-4">Our Products</h2>
+     <div class="row gy-4">
+        <!-- Product 1 -->
+        <div class="col-12 col-sm-6 col-md-4">
+           <div class="card h-100">
+              <img src="./Images/Product-img-1.jpeg" class="card-img-top" alt="Product 1">
+              <div class="card-body text-center">
+                 <h5 class="card-title">Veggies</h5>
+                 <p class="card-text">Organic, fresh, and straight from the farm.</p>
+               
+                 <div class="rating mb-2">
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="far fa-star text-warning"></i> 
+                 </div>
+              </div>
+              <div class="card-footer text-center">
+                 <h5 class="text-success mb-0">Rs.800</h5>
+              </div>
+           </div>
+        </div>
+        
+        <!-- Product 2 -->
+        <div class="col-12 col-sm-6 col-md-4">
+           <div class="card h-100">
+              <img src="./Images/Product-img-2.jpeg" class="card-img-top" alt="Product 2">
+              <div class="card-body text-center">
+                 <h5 class="card-title">Fruits</h5>
+                 <p class="card-text">Purely organic and fresh.</p>
+                
+                 <div class="rating mb-2">
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i> 
+                 </div>
+              </div>
+              <div class="card-footer text-center">
+                 <h5 class="text-success mb-0">Rs.599</h5>
+              </div>
+           </div>
+        </div>
+        
+        <!-- Product 3 -->
+        <div class="col-12 col-sm-6 col-md-4">
+           <div class="card h-100">
+              <img src="./Images/product-img-3.jpeg" class="card-img-top" alt="Product 3">
+              <div class="card-body text-center">
+                 <h5 class="card-title">Cherry Tomatoes</h5>
+                 <p class="card-text"> Freshly harvested and organic.</p>
+                 
+                 <div class="rating mb-2">
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="far fa-star text-warning"></i> 
+                    <i class="far fa-star text-warning"></i>
+                 </div>
+              </div>
+              <div class="card-footer text-center">
+                 <h5 class="text-success mb-0">Rs.870</h5>
+              </div>
+           </div>
+        </div>
+     </div>
+  </div>
+</section>
+
+<!---gallery-->
+<div  id="gallery"  class="gallery-section text-center py-5">
+  <h2 class="mb-4">Gallery</h2>
+  <div class="row">
+      <div class="col-md-4 col-sm-6 mb-4">
+          <img src="./Images/g-1.jpeg" class="img-fluid rounded shadow" alt="Gallery Image 1">
+      </div>
+      <div class="col-md-4 col-sm-6 mb-4">
+          <img src="./Images/g-2.jpg" class="img-fluid rounded shadow" alt="Gallery Image 2">
+      </div>
+      <div class="col-md-4 col-sm-6 mb-4">
+          <img src="./Images/g-3.webp" class="img-fluid rounded shadow" alt="Gallery Image 3">
+      </div>
+      <div class="col-md-4 col-sm-6 mb-4">
+          <img src="./Images/g-4.webp" class="img-fluid rounded shadow" alt="Gallery Image 4">
+      </div>
+      <div class="col-md-4 col-sm-6 mb-4">
+          <img src="./Images/g-5.webp" class="img-fluid rounded shadow" alt="Gallery Image 5">
+      </div>
+      <div class="col-md-4 col-sm-6 mb-4">
+          <img src="./Images/g-6.jpeg" class="img-fluid rounded shadow" alt="Gallery Image 6">
+      </div>
+  </div>
+</div>
+
+<!---contact-->
+
+<div id="contact"    class="contact-section text-center py-5">
+  <h2 class="mb-4">Contact Us</h2>
+  <p class="mb-5">We would love to hear from you! Please fill out the form below to get in touch.</p>
+  
+  <form class="contact-form">
+      <div class="form-group">
+          <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+      </div>
+      <div class="form-group">
+          <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+      </div>
+      <div class="form-group">
+          <textarea name="message" class="form-control" placeholder="Your Message" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+  </form>
+</div>
+
+
+
+<!---footer-->
+<footer class="footer-section">
+  <div class="container text-center text-md-left py-4">
+      <div class="row">
+          
+          <div class="col-md-4 mb-4">
+              <h5>About Us</h5>
+              <p>We are dedicated to offering quality services and products. Thank you for visiting our website!</p>
+          </div>
+
+          
+          <div class="col-md-4 mb-4">
+              <h5>Quick Links</h5>
+              <ul class="list-unstyled">
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#products">Products</a></li>
+                  <li><a href="#contact">Contact</a></li>
+              </ul>
+          </div>
+
+          
+          <div class="col-md-4 mb-4">
+              <h5>Follow Us</h5>
+              <div class="social-icons">
+                  <a href="https://github.com/leenasherin" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                  <a href="https://github.com/leenasherin" target="_blank"><i class="fab fa-twitter"></i></a>
+                  <a href="https://github.com/leenasherin" target="_blank"><i class="fab fa-instagram"></i></a>
+                  <a href="https://github.com/leenasherin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+          </div>
+      </div>
+
+      <hr class="my-4">
+
+      
+      <div class="text-center">
+          <p>&copy; 2024 100% Organic. All Rights Reserved to Leena Sherin.</p>
+      </div>
+  </div>
+</footer> 
+
+
+    
+
+</body>
+<!--script----->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<!--AOS Script-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  AOS.init();
+</script>
+</html>
